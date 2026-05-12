@@ -8,6 +8,7 @@ positions:
 email: "akshaymiterani@gmail.com"
 github: akshaymiterani
 linkedin: akshay-miterani-108827105
+codeforces: akshay_miterani
 
 short_bio_text_justify: false
 short_bio: >-
@@ -18,7 +19,7 @@ short_bio: >-
   </p>
   <p>
     I graduated with Honors in Computational Science from Dhirubhai Ambani Institute of Information and Communication Technology (DAIICT). 
-    I am also passionate about competitive programming, having ranked in the Top 50 in India on Hackerrank and Codeforces.
+    I am also passionate about competitive programming, having reached <strong>Candidate Master</strong> on Codeforces and ranked in the Top 50 in India on Hackerrank.
   </p>
 
 # portrait_url: /assets/images/photos/portrait.jpg
@@ -28,26 +29,33 @@ education:
 - name: Dhirubhai Ambani Institute of Information and Communication Technology (DAIICT)
   position: B.Tech in Information and Communication Technology <br/> Honors in Computational Science
   date: 2014 - 2018
+  logo: /assets/images/logos/daiict.png
 
 experience:
 - name: Uber
   position: Senior Software Engineer
   date: 2024 - Present
+  logo: /assets/images/logos/uber.png
 - name: Google
   position: Software Engineer
   date: 2019 - 2024
+  logo: /assets/images/logos/google.png
 - name: Amazon
   position: Software Development Engineer
   date: 2018 - 2019
+  logo: /assets/images/logos/amazon.png
 - name: Morgan Stanley
   position: Technology Analyst Intern
   date: 2018
+  logo: /assets/images/logos/morganstanley.png
 - name: Amazon
   position: Software Development Intern
   date: 2017
+  logo: /assets/images/logos/amazon.png
 - name: IIT Bombay
   position: Research Summer Intern
   date: 2016
+  logo: /assets/images/logos/iitbombay.png
 
 awards:
 - name: Top 50 Indians Competitive Programming Hackerrank and Codeforces

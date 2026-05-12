@@ -88,6 +88,12 @@
                         </a>
                         {% endif %}
 
+                        {% if site.data.profile.codeforces %}
+                        <a class="pr-3 no-break" target="_blank" href="https://codeforces.com/profile/{{ site.data.profile.codeforces }}">
+                            <img src="/assets/images/logos/codeforces.png" style="height:14px; vertical-align:-2px; margin-right:3px;"> Codeforces
+                        </a>
+                        {% endif %}
+
                         {% if site.data.profile.orcid %}
                         <a class="pr-3 no-break" target="_blank" href="https://orcid.org/{{ site.data.profile.orcid }}">
                             <i class="fab fa-orcid"></i> ORCID
