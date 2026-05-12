@@ -3,7 +3,8 @@ secondary_name: ""
 navbar_name: "Akshay Miterani"
 
 positions:
-- name: Senior Software Engineer @ Uber
+- name: Senior Software Engineer
+  logo: /assets/images/logos/uber.png
 
 email: "akshaymiterani@gmail.com"
 github: akshaymiterani
@@ -79,18 +80,29 @@ quora_views: "1.6M"
 quora_answers:
 - question: "How did you get so good at competitive coding?"
   url: "https://www.quora.com/How-did-you-get-so-good-at-competitive-coding/answer/Akshay-Miterani"
-- question: "Should I do HackerRank, SPOJ, TopCoder, CodeForces or CodeChef?"
-  url: "https://www.quora.com/Should-I-do-HackerRank-SPOJ-TopCoder-CodeForces-or-CodeChef/answer/Akshay-Miterani"
-- question: "How should a newbie practice on CodeForces?"
-  url: "https://www.quora.com/How-should-a-newbie-practice-on-CodeForces/answer/Akshay-Miterani"
-- question: "Do software engineer interns write bad code?"
-  url: "https://www.quora.com/Do-software-engineer-interns-write-bad-code/answer/Akshay-Miterani"
+  snippet: "It definitely did not happen overnight! When I entered DA-IICT I hardly knew any programming and I struggled in my first-year assignments. I could not write bug-free codes without help from batchmates."
+  upvotes: "1,435"
+  views: "78.5K"
 - question: "How did you feel when you got selected for Google?"
   url: "https://www.quora.com/How-did-you-feel-when-you-got-selected-for-Google/answer/Akshay-Miterani"
-- question: "Many coders on Codeforces submit a problem within 2 minutes despite having a long problem description. How do they read it?"
-  url: "https://www.quora.com/Many-coders-on-Codeforces-submit-a-problem-within-2-minutes-despite-having-a-long-problem-description-How-do-they-read-the-problem-description/answer/Akshay-Miterani"
+  snippet: "Bittersweet! This is my last week at Amazon as a software developer. This began a while back, end of 2018. I was ready to explore opportunities outside Amazon. Take on a different challenge, professionally and personally."
+  upvotes: "1,530"
+  views: "65.9K"
 - question: "Is learning Python worth it?"
   url: "https://www.quora.com/Is-learning-Python-worth-it/answer/Akshay-Miterani"
+  snippet: "Absolutely. I have done following things with the brief interaction I had with Python. I can write codes in competitions without worrying about overflows! I do that every once in a while."
+  upvotes: "289"
+  views: "64.3K"
+- question: "Many coders on Codeforces submit a problem within 2 minutes despite having a long problem description. How do they read the problem description?"
+  url: "https://www.quora.com/Many-coders-on-Codeforces-submit-a-problem-within-2-minutes-despite-having-a-long-problem-description-How-do-they-read-the-problem-description/answer/Akshay-Miterani"
+  snippet: "Ignore the story - Most of the times it is the initial part of the question, where a panda has to impress the villagers for a ritual. Although we all like pandas, after a while, you just become indifferent to helping those imaginary friends."
+  upvotes: "646"
+  views: "51.2K"
+- question: "What perks do Amazon interns get?"
+  url: "https://www.quora.com/What-perks-do-Amazon-interns-get/answer/Akshay-Miterani"
+  snippet: "Apart from the stipend, Travel - To and fro flight tickets from your city to work city. Also, expenses for searching a stay location in the city. Stay - Opulent hotel stay for first 15 days."
+  upvotes: "294"
+  views: "47.8K"
 
 press:
 - outlet: "GeeksForGeeks"
