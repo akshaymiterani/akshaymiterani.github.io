@@ -10,10 +10,10 @@
                             <ul class="list-unstyled mb-1">
                                 {% for item in site.data.profile.education %}
                                 <li class="media mb-1">
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
+                                    {% if item.logo %}<img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">{% endif %}
                                     <div class="media-body">
                                         <div>{{ item.name }}</div>
-                                        <div class="small">{{ item.dept }}</div>
+                                        {% if item.dept %}<div class="small">{{ item.dept }}</div>{% endif %}
                                         <div class="small d-flex">
                                             <div>{{ item.position }}</div>
                                             <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
@@ -33,10 +33,10 @@
                             <ul class="list-unstyled mb-1">
                                 {% for item in site.data.profile.experience %}
                                 <li class="media mb-1">
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
+                                    {% if item.logo %}<img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">{% endif %}
                                     <div class="media-body">
                                         <div>{{ item.name }}</div>
-                                        <div class="small">{{ item.dept }}</div>
+                                        {% if item.dept %}<div class="small">{{ item.dept }}</div>{% endif %}
                                         <div class="small d-flex">
                                             <div>{{ item.position }}</div>
                                             <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
@@ -52,7 +52,7 @@
                     {% if site.data.profile.awards %}
                     <div class="col-lg-6">
                         <div class="mx-2 my-1">
-                            <h6>Honors & Awards</h6>
+                            <h6>Honors &amp; Awards</h6>
                             <ul class="list small pl-3 mb-1">
                                 {% for item in site.data.profile.awards %}
                                 <li>
@@ -73,3 +73,40 @@
         </div>
     </div>
 </div>
+
+{% if site.data.profile.quora_answers %}
+<div class="row mt-3">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-4">
+                <div class="row px-2 pb-2">
+                    <div class="col">
+                        <h6><i class="fab fa-quora" style="color: #b92b27;"></i> Top Quora Answers</h6>
+                        <p class="small text-muted mb-2">
+                            <a href="https://www.quora.com/profile/Akshay-Miterani" target="_blank" class="text-muted">
+                                {{ site.data.profile.quora_followers }} followers &middot; {{ site.data.profile.quora_views }} total views
+                            </a>
+                        </p>
+                        <ul class="list-unstyled mb-0">
+                            {% for answer in site.data.profile.quora_answers %}
+                            <li class="mb-2 d-flex align-items-start">
+                                <i class="fas fa-chevron-right small mt-1 mr-2" style="color: #b92b27; flex-shrink: 0;"></i>
+                                <div>
+                                    <a href="{{ answer.url }}" target="_blank" class="font-weight-500">{{ answer.question }}</a>
+                                    {% if answer.views %}<span class="small text-muted ml-2">&middot; {{ answer.views }}</span>{% endif %}
+                                </div>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        <div class="mt-2">
+                            <a href="https://www.quora.com/profile/Akshay-Miterani" target="_blank" class="small">
+                                View all answers on Quora <i class="fas fa-external-link-alt small"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}

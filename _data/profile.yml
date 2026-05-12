@@ -3,8 +3,7 @@ secondary_name: ""
 navbar_name: "Akshay Miterani"
 
 positions:
-- name: Senior Software Engineer
-- name: Uber
+- name: Senior Software Engineer @ Uber
 
 email: "akshaymiterani@gmail.com"
 github: akshaymiterani
@@ -59,3 +58,21 @@ awards:
   date: 2016, 2017
 - name: Top 20 ACM ACPC Kolkata Regionals Qualifier
   date: 2015
+
+quora_followers: "5,658"
+quora_views: "1.6M"
+quora_answers:
+- question: "How did you get so good at competitive coding?"
+  url: "https://www.quora.com/How-did-you-get-so-good-at-competitive-coding/answer/Akshay-Miterani"
+- question: "Should I do HackerRank, SPOJ, TopCoder, CodeForces or CodeChef?"
+  url: "https://www.quora.com/Should-I-do-HackerRank-SPOJ-TopCoder-CodeForces-or-CodeChef/answer/Akshay-Miterani"
+- question: "How should a newbie practice on CodeForces?"
+  url: "https://www.quora.com/How-should-a-newbie-practice-on-CodeForces/answer/Akshay-Miterani"
+- question: "Do software engineer interns write bad code?"
+  url: "https://www.quora.com/Do-software-engineer-interns-write-bad-code/answer/Akshay-Miterani"
+- question: "How did you feel when you got selected for Google?"
+  url: "https://www.quora.com/How-did-you-feel-when-you-got-selected-for-Google/answer/Akshay-Miterani"
+- question: "Many coders on Codeforces submit a problem within 2 minutes despite having a long problem description. How do they read it?"
+  url: "https://www.quora.com/Many-coders-on-Codeforces-submit-a-problem-within-2-minutes-despite-having-a-long-problem-description-How-do-they-read-the-problem-description/answer/Akshay-Miterani"
+- question: "Is learning Python worth it?"
+  url: "https://www.quora.com/Is-learning-Python-worth-it/answer/Akshay-Miterani"
