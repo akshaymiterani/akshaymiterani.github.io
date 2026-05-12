@@ -13,13 +13,20 @@ codeforces: akshay_miterani
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a Senior Software Engineer at Uber, working on large-scale systems and agentic engineering initiatives. 
-    Previously, I was a Software Engineer at Google, where I led the development of the Topics API on Privacy Sandbox for Android 
-    and developed end-to-end solutions for ML model training and prediction within Google TV's backend.
+    I'm <strong>Akshay</strong>, a Senior Software Engineer at <a href="https://www.uber.com" target="_blank">Uber</a>, 
+    working on large-scale distributed systems and agentic engineering initiatives.
+    Previously, I was a Software Engineer at <a href="https://www.google.com" target="_blank">Google</a>, where I led the development of the 
+    <a href="https://developers.google.com/privacy-sandbox/private-advertising/topics/android" target="_blank">Topics API on Privacy Sandbox for Android</a>
+    and built end-to-end ML model training and prediction pipelines within 
+    <a href="https://tv.google" target="_blank">Google TV</a>'s backend.
+    Before that, I was a Software Development Engineer at <a href="https://www.amazon.com" target="_blank">Amazon</a>.
   </p>
   <p>
-    I graduated with Honors in Computational Science from Dhirubhai Ambani Institute of Information and Communication Technology (DAIICT). 
-    I am also passionate about competitive programming, having reached <strong>Candidate Master</strong> on Codeforces and ranked in the Top 50 in India on Hackerrank.
+    I graduated with Honors in Computational Science from 
+    <a href="https://www.daiict.ac.in" target="_blank">Dhirubhai Ambani Institute of Information and Communication Technology (DAIICT)</a>.
+    I'm passionate about competitive programming — I reached 
+    <a href="https://codeforces.com/profile/akshay_miterani" target="_blank"><strong>Candidate Master</strong></a> on Codeforces
+    and ranked in the <a href="https://www.hackerrank.com" target="_blank">Top 50 in India on HackerRank</a>.
   </p>
 
 # portrait_url: /assets/images/photos/portrait.jpg
