@@ -91,3 +91,10 @@ quora_answers:
   url: "https://www.quora.com/Many-coders-on-Codeforces-submit-a-problem-within-2-minutes-despite-having-a-long-problem-description-How-do-they-read-the-problem-description/answer/Akshay-Miterani"
 - question: "Is learning Python worth it?"
   url: "https://www.quora.com/Is-learning-Python-worth-it/answer/Akshay-Miterani"
+
+press:
+- outlet: "GeeksForGeeks"
+  title: "Geek on the Top — \"You miss 100% of the shots you don't take. So shoot more!\""
+  description: "Featured in GFG's Geek on the Top interview series on career, competitive programming, and lessons from Amazon & Google."
+  url: "https://www.geeksforgeeks.org/work-experiences/akshay-miterani-geek-on-the-top-you-miss-100-of-the-shots-you-dont-take-so-shoot-more/"
+  logo: /assets/images/logos/gfg.png
