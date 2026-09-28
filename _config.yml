@@ -14,11 +14,31 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://akshaymiterani.github.io"
+
+# SEO / link previews (used by jekyll-seo-tag)
+title: "Akshay Miterani"
+description: >-
+  Akshay Miterani is a Senior Software Engineer at Uber working on large-scale
+  distributed systems, previously at Google (Privacy Sandbox Topics API, Google TV)
+  and Amazon. Codeforces Candidate Master.
+lang: en_US
+author:
+  name: "Akshay Miterani"
+social:
+  name: "Akshay Miterani"
+  links:
+    - https://github.com/akshaymiterani
+    - https://www.linkedin.com/in/akshay-miterani-108827105
+    - https://codeforces.com/profile/akshay_miterani
+    - https://www.quora.com/profile/Akshay-Miterani
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-email-protect
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -32,11 +52,28 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - AkshayMiteraniCV_2024.pdf
+  - README.md
+  - LICENSE
+  # Unused template pages/assets (kept in the repo, not published)
+  - index_layout2.html
+  - blog.html # re-enable once there are posts in _posts/
+  - publications.html
+  - showcase.html
+  - assets/js/bubble_visual_hash.js
+  - assets/js/semantic_scholar_citation_count.js
+  - assets/css/images/
+  - assets/images/covers/
+  - assets/images/badges/
+  - assets/images/etc/
+  - assets/images/empty_300x200.png
 
 # timezone: Asia/Shanghai
 
 collections:
-  - publications
-  - news
-  - showcase
   - posts
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/photos/portrait.jpg

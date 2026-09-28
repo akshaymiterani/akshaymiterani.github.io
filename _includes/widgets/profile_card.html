@@ -11,6 +11,8 @@
                                 src="{{ site.data.profile.portrait_url | relative_url }}" 
                                 class="figure-img img-fluid img-thumbnail" 
                                 style="height: 200px;"
+                                width="200" height="200"
+                                alt="Portrait of {{ site.data.profile.primary_name }}"
                                 data-toggle="tooltip" 
                                 data-placement="top" 
                                 title="{{ site.data.profile.portrait_caption }}">
@@ -24,7 +26,7 @@
                             {% if site.data.profile.portrait_url %}
                             <div class="ml-auto d-md-none">
                                 <a target="_blank" href="{{ site.data.profile.portrait_url | relative_url }}">
-                                    <img src="{{ site.data.profile.portrait_url | relative_url }}" class="rounded-circle" style="height: 48px;" alt="Portrait">
+                                    <img src="{{ site.data.profile.portrait_url | relative_url }}" class="rounded-circle" style="height: 48px;" width="48" height="48" alt="Portrait of {{ site.data.profile.primary_name }}">
                                 </a>
                             </div>
                             {% endif %}
@@ -32,7 +34,7 @@
                         <div class="text-profile-position">
                             {% for position in site.data.profile.positions %}
                             {% if position.logo -%}
-                            <img src="{{ position.logo | relative_url }}" alt="Logo" class="inline-badge"/>
+                            <img src="{{ position.logo | relative_url }}" alt="" class="inline-badge"/>
                             {%- endif %}
                             {{ position.name }}<br/>
                             {% endfor %}
@@ -90,7 +92,7 @@
 
                         {% if site.data.profile.codeforces %}
                         <a class="pr-3 no-break" target="_blank" href="https://codeforces.com/profile/{{ site.data.profile.codeforces }}">
-                            <img src="/assets/images/logos/codeforces.png" style="height:14px; vertical-align:-2px; margin-right:3px;"> Codeforces
+                            <img src="{{ '/assets/images/logos/codeforces.png' | relative_url }}" alt="" style="height:14px; vertical-align:-2px; margin-right:3px;"> Codeforces
                         </a>
                         {% endif %}
 
